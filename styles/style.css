@@ -72,12 +72,169 @@ body{
 .about-failures p{
     margin-left: 80px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 26px;
+    color: #444343;
+}
+
+.failure-list {
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #444343;
+}
+
+.list-item{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #444343;
 }
 
 .description{
     margin-bottom: 16px;
 }
 
+/* My plans section styles */
+
+.my-plans{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.my-plans-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.my-plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    margin-right: 40px;
+    text-align: center;
+}
+
+.skills h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.skills p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+.last{
+    margin-right: 0;
+}
+
+/* call us section styes */
+
+.call-us{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.call-us h2{
+    padding-top: 60px;
+    margin-left: 64px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.btn{
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    margin-left: 64px;
+    margin-top: 24px;
+}
+
+/* footer section styles */
+
+footer{
+    margin-top: 130px;
+    height: 570px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future{
+    width: 485px;
+    height: 317px;
+    margin: 130px 230px;
+    color: #F8F8F8;
+}
+
+.future h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.icons img{
+    margin-right: 15px;
+}
+
+.subscribe{
+    width: 325px;
+    height: 204px;
+    margin: 130px 230px;
+}
+
+.form-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.email{
+    padding: 15px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    display: block;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+
+.submit-btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border-radius: 8px;
+
+}
 
